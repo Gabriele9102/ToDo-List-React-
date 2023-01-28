@@ -14,13 +14,13 @@ function App() {
   
   function add() {
 
-    newString ? newString : alert('insert a value')
+   // newString ? newString : alert('insert a value')
   
     const string ={
       value: newString,
       id: Math.floor(Math.random()*100)
     }
-    console.log(strings);
+    console.log(isDone);
 
     setStrings(pastString => [...pastString, string]);
 
